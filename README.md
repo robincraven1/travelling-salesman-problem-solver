@@ -12,23 +12,23 @@ Task: attempts to give the solution of the shortest possible route to visit a se
 
 ## TSP Solver Algorithms 
 
-#### BASIC SA -- AlgAbasic.py
+#### AlgAbasic.py -- BASIC SA 
 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
 - Accepts worse solutions probabilistically based on a cooling temperature schedule
  
-#### ENHANCED SA -- AlgAenhanced.py
+#### AlgAenhanced.py -- ENHANCED SA
 
 - Nearest-neighbour heuristic for initial tour construction
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-#### BASIC GA -- AlgBbasic.py
+#### AlgBbasic.py -- BASIC GA
 
 - Standard GA with random population initialisation, tournament selection
 - As well as order crossover (OX), and swap mutation
 
-#### ENHANCED GA -- AlgBenhanced.py -- Genetic Algorithm (Enhanced)
+#### AlgBenhanced.py -- ENHANCED GA
 
 - Population seeded with nearest-neighbour heuristic tours
 - Additional inversion mutation operator alongside swap mutation

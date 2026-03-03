@@ -12,7 +12,7 @@ Task: attempts to give the solution of the shortest possible route to visit a se
 
 ## TSP Solver Algorithms 
 
-#### 1a) -- AlgAbasic.py -- BASIC 
+#### 1a) AlgAbasic.py -- BASIC 
 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
 - Accepts worse solutions probabilistically based on a cooling temperature schedule

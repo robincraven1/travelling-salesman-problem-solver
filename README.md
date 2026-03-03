@@ -23,8 +23,6 @@ Task: attempts to give the solution of the shortest possible route to visit a se
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
----
-
 #### BASIC GA -- AlgBbasic.py
 
 - Standard GA with random population initialisation, tournament selection

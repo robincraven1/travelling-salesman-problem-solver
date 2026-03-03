@@ -3,7 +3,7 @@
 ## Overview
 
 2 enhanced implementations of SA and GA metaheuristic algorithms that aim to solve the Travelling Salesperson Problem (TSP). <br>
-Task: attempts to give the solution of the shortest possible route to visit a set of cities exactly once and return to the starting city. 
+TSP: to find the shortest possible route to visit a set of cities exactly once and return to the starting city. 
 
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|

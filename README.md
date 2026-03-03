@@ -2,8 +2,8 @@
 
 ## Overview
 
-4 different implementations of metaheuristic algorithms that aim to solve the Travelling Salesperson Problem (TSP). <br>
-Each algorithm tries to find the shortest possible route to visit a set of cities exactly once and return to the starting city. 
+2 enhanced implementations of SA and GA metaheuristic algorithms that aim to solve the Travelling Salesperson Problem (TSP). <br>
+Task: attempts to give the solution of the shortest possible route to visit a set of cities exactly once and return to the starting city. 
 
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|
@@ -12,23 +12,25 @@ Each algorithm tries to find the shortest possible route to visit a set of citie
 
 ## TSP Solver Algorithms 
 
-#### 1) AlgAbasic.py -- Simulated Annealing (Basic)
+#### BASIC SA -- AlgAbasic.py
 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
 - Accepts worse solutions probabilistically based on a cooling temperature schedule
  
-#### 2) AlgAenhanced.py -- Simulated Annealing (Enhanced)
+#### ENHANCED SA -- AlgAenhanced.py
 
 - Nearest-neighbour heuristic for initial tour construction
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-#### 3) AlgBbasic.py -- Genetic Algorithm (Basic)
+---
+
+#### BASIC GA -- AlgBbasic.py
 
 - Standard GA with random population initialisation, tournament selection
 - As well as order crossover (OX), and swap mutation
 
-#### 4) AlgBenhanced.py -- Genetic Algorithm (Enhanced)
+#### ENHANCED GA -- AlgBenhanced.py -- Genetic Algorithm (Enhanced)
 
 - Population seeded with nearest-neighbour heuristic tours
 - Additional inversion mutation operator alongside swap mutation
